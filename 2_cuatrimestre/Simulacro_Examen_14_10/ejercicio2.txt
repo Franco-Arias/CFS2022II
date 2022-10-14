@@ -1,0 +1,28 @@
+Que es un objeto?
+Un objeto es una instancia de una clase, es decir,
+algo creado a partir de esta que posee caracteristicas y funciones.
+
+Que es una clase?
+Una abstracion a partir de la que se crean objetos, una especie de molde.
+
+A que se llama metodo constructor?
+A una funcion por defecto dentro de una clase que crea objetos a partir 
+de parametros.
+
+Que son los modificadores de acceso?
+Etiquetas que determinan que partes del codigo pueden interactuar 
+con un metodo o variable.
+
+Que diferencia hay entre uno privado y uno protegido?
+Uno privado solo permite que se interactue con otras partes de la misma clase, 
+uno protegido permite ademas que las clases hijas interactuen.
+
+Cuando se usa el this?
+Para indicar una variable fuera de actual metodo. 
+
+Cuando se usa el super?
+Para llamar al contenido de un constructor de una clase padre.
+
+A que se llama sub-clase, o clase hija?
+A una clase relacionada a una clase padre, puede acceder a los metodos y caracteristicas
+de dicha clase (siempre que estos no tengan la etiqueta "private").

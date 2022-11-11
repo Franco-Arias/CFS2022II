@@ -1,0 +1,37 @@
+1)¿A que se llama Herencia?
+	A un mecanismo de programacion que permite compartir metodos y 
+caracteristicas entre clases de manera jerarquica.
+
+2)¿Qué es una subclase?
+	A una clase que es hija de una padre, es decir que hereda metodos 
+y/o caracteristicas de este. Una clase hija puede a su vez ser padre de 
+otra clase.
+
+3)¿Que es un objeto?
+	Un objeto es una instancia de una clase, es creado a partir de 
+esta y posee metodos y/o caracteristicas.
+
+4)¿Qué significa que un atributo sea protegido?
+	Significa que solamente se puede interactuar desde dentro de la 
+misma clase o de una subclase.
+
+5)Existe la herencia múltiple en Typescript?
+	No, al menos no con clases.
+
+6)Definir Poliformismo
+	Poliformismo es un mecanismo que permite redefinir metodos, es decir,
+permite cambiar como funciona un metodo en una clase hija el cual ya habia sido
+definido en una clase padre.
+
+7)¿Qué es un constructor? Para qué sirve?
+	A una funcion por defecto que crea un objeto a partir de una clase.
+
+8)¿Cómo se crea una clase abstracta?
+	Declarandola con "abstract" antes de "class".
+
+9)¿Para que se usa el super?
+	Para llamar al constructor de la clase padre.
+
+10)¿Qué son las interfaces?
+	Una especie de "plantilla" que permite declarar los metodos y/o 
+caracteristicas que tendra una clase, pero sin definir sus valores.

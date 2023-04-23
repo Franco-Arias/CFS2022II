@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Documentos</h1>
+    <table>
+        <thead>
+            <td>Título</td>
+            <td>Autor</td>
+            <td>Tema</td>
+            <td>Fecha</td>
+        </thead>
+
+        <thead>
+            <td><input type="text" name="" value="" id="titulo"></td>
+            <td><input type="text" name="" value="" id="autor"></td>
+            <td><input type="text" name="" value="" id="tema"></td>
+            <td><input type="date" name="" value="" id="fecha"></td>
+        </thead>
+
+        <thead>
+            <td colspan=4>
+                <button type="button" id="btnAgregar">Agregar</button>
+                <button type="button" id="btnMostarTodos">Mostrar Todos</button>
+                <button type="button" id="btnEstadisticas">Mostrar Estadísticas</button>                
+            </td>
+        </thead>
+        <thead>
+            <td colspan=4>
+                <input type="text" name="" value="" id="temaABuscar">
+                <button type="button" id="btnBuscarTema">Buscar tema</button>
+            </td>
+        </thead>
+
+        <tbody id="tblDocumentos">
+
+        </tbody>
+
+    </table>
+    <div id="contenedorEstadisticas"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
